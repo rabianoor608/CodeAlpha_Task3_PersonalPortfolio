@@ -1,0 +1,128 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #e6e6e6;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #111;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+}
+
+nav a:hover {
+  color: #00adb5;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00adb5;
+}
+
+#home {
+    padding: 100px 20px;
+}
+
+#home h1 {
+        font-size: 60px;
+        color: #ffffff;
+        text-shadow: 0 0 10px #00adb5;
+}
+
+#home p {
+        font-size: 25px;
+        color: #b3b3b3;
+        text-align: center;
+        line-height: 1.5;
+        max-width: 800px;
+        margin: auto;
+}
+
+#about p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+}
+
+.skillBox {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 15px auto;
+    width: 20%;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.skillBox:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00adb5;
+}
+
+h3{
+    color: cornflowerblue;
+}
+.card a{
+    color: cornflowerblue;
+}
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 15px #00adb5;
+}
+
+#contact p {
+    margin: 10px;
+    color: #b3b3b3;
+}
+
+#contact a{
+    color: royalblue;
+    text-decoration: none;
+}
+
+button {
+    background: #00adb5;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+
+button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00adb5;
+}
